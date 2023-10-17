@@ -1,2 +1,22 @@
 
 /* css */
+header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  height: calc(75vh - 55px);
+  background-color: #2E5266;
+}
+
+h1 {
+  font-weight: 700;
+  color: #D3D0CB;
+  font-size: 3.5rem;
+  line-height: 88%;
+}
+
+h2 {
+  color: #D6B43B;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 88%;
+}
