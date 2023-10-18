@@ -13,7 +13,7 @@ form{
 header {
   font-family: Georgia, 'Times New Roman', Times, serif;
   position: relative;
-  height: calc(50vh);
+  height: 50vh;
   background-color: #2E5266;
 }
 
