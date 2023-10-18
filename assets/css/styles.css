@@ -2,6 +2,12 @@
 /* css */
 body {
   background-color: #DDDAD6;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form{
+  font-size: 1.5rem;
+  color: #2E5266;
 }
 
 header {
