@@ -1,22 +1,129 @@
 
 /* css */
+body {
+  background-color: #DDDAD6;
+}
+
 header {
   font-family: Georgia, 'Times New Roman', Times, serif;
   position: relative;
-  height: calc(75vh - 55px);
+  height: calc(75vh);
   background-color: #2E5266;
 }
 
 h1 {
   font-weight: 700;
-  color: #D3D0CB;
-  font-size: 3.5rem;
+  color: #DDDAD6;
   line-height: 88%;
 }
 
 h2 {
   color: #D6B43B;
   font-weight: bold;
-  font-size: 2rem;
   line-height: 88%;
+}
+
+h3 { 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #2E5266;
+  margin-top: 30px;
+  border-bottom: 4px solid #2E5266;
+}
+
+h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #2E5266;
+  margin-top: 30px;
+}
+
+h5 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #D4B132;
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#2E5266;
+}
+
+img {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 320px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h5{
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 420px) {
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 3.35rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  h4 {
+    font-size: 2.25rem;
+  }
+
+  h5{
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  h1 {
+    font-size: 9rem;
+  }
+  h2 {
+    font-size: 5.5rem;
+  }
+  h3 {
+    font-size: 4rem;
+  }
+
+  h4 {
+    font-size: 2.5rem;
+  }
+
+  h5{
+    font-size: 1.75rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
 }
